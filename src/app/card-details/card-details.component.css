@@ -1,0 +1,33 @@
+
+.card{
+    font-family: MarkPro;
+    font-size: 30px;
+    color: red;
+  }
+  
+  
+  .cams{
+    font-size: 20px;
+  }
+  .plastic{
+    margin-right: 76px;
+    font-size: 20px;
+  }
+  
+  .status{
+    margin-right: 92px;
+    font-size: 20px;
+  }
+  .issue{
+    margin-right: 115px;
+    font-size: 20px;
+  }
+  .expiry{
+    margin-right: 101px;
+    font-size: 20px;
+  }
+  .ass{
+    margin-right: 46px;
+    font-size: 20px;
+  }
+  

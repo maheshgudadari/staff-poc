@@ -1,0 +1,48 @@
+<p>
+  <span class="card"> Card Details</span>
+</p>
+
+<div>
+<div>
+  <span class="cams">CAMS Account Number </span>:
+  <span> 8888 7777 666 </span>
+</div>
+<div>
+  <span class="plastic"> Plastic Number </span> :
+  <span>1234 5678 9643 2368</span>
+</div>
+<div>
+  <span class="status"> Plastic Status </span>:
+  <span>Active</span>
+</div>
+<div>
+  <span class="issue">  Issue Date </span>:
+  <span>2018-01-01</span>
+</div>
+<div>
+  <span class="expiry">Expiry Date </span>:
+  <span>2029-01-03</span>
+</div>
+
+<div>
+  <span class="ass">  Plastic Association  </span>:
+  <span>VISA</span>
+</div>
+</div>
+
+
+<div class="container">
+  <h2>Url Authentication</h2>
+  <p></p>
+  
+    <div class="form-group">
+      <label for="url">Url:</label>
+      <input type="text" [(ngModel)]="url" class="form-control" id="url">
+    </div>
+    <div class="form-group">
+      <label for="token">JWT Token:</label>
+      <textarea  type="text"  [(ngModel)]="token" class="form-control" id="token" rows="3"></textarea>
+    </div>
+
+    <button type="button" class="btn btn-md btn-success" (click)="sendRequest()">Submit</button>
+</div>
